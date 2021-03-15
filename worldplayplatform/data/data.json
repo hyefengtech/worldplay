@@ -1,0 +1,85 @@
+{
+    "items" : [
+        {
+            "type" : "mobile",
+            "best" : "best",
+            "price" : "무료",
+            "name" : "S의 박물관",
+            "description" : "모든 기록과 이야기의 안식처, 경험하는 박물관 몽샤토와 함께 하시겠습니까?",
+            "place" : "장소무관",
+            "genre" :  "drama",
+            "image" : "../img/로텐부르크시계탑.jpeg",
+            "url" : "https://tech.worldplay.kr/WorldplayMobile/smuseum/tutorial-index.html"
+        },
+        {
+            "type" : "general", 
+            "best" : "best",
+            "price-type" : "charged",
+            "price" : "14000원",
+            "name" : "조선메트로3호선",
+            "description" : "삼봉 정도전을 도와 조선을 설계하라",
+            "place" : "서울 종로구일대",
+            "genre" :  "adventure",
+            "image" : "../img/정도전초상화.jpg"
+        },
+        {
+            "type" : "mobile", 
+            "price-type" : "charged",
+            "price" : "3000원",
+            "name" : "고려세계",
+            "description" : "그대의 선택이 고려의 선대기록을 만드리니",
+            "place" : "장소무관",
+            "genre" :  "fantasy",
+            "image" : "../img/고려국기.png"
+        },
+        {
+            "type" : "blend",
+            "price-type" : "charged",
+            "price" : "15000원",
+            "name" : "기묘한 승람기",
+            "description" : "이렇게 기묘한 여행을 보셨나요?",
+            "place" : "장소무관",
+            "genre" :  "fantasy",
+            "image" : "../img/김홍도산수화_토왕폭.jpg"
+        }, 
+        {
+            "type" : "blend",
+            "price-type" : "charged",
+            "price" : "11000원",
+            "name" : "용비",
+            "place" : "서울",
+            "genre" :  "mystery",
+            "image" : "../img/몽유도원도.jpg"
+        },
+        {
+            "type" : "special",
+            "price-type" : "charged",
+            "price" : "3000원",
+            "name" : "오원자를 찾아줘",
+            "place" : "장소무관",
+            "genre" :  "story",
+            "image" : "../img/검은고양이.jpeg"
+        },
+        {
+            "type" : "blend",
+            "price-type" : "charged",
+            "price" : "13000원",
+            "name" : "메모리 오브 21",
+            "description" : "한반도 내 존재했던 21개 왕도의 기억이 사라져간다. 21개의 기억을 붙잡아 약해지는 한울을 지켜내자.",
+            "place" : "장소무관",
+            "genre" :  "classic",
+            "image" : "../img/유득공의시도.png"
+        },
+        {
+            "type" : "other",
+            "price" : "무료",
+            "name" : "당신의 시호",
+            "description" : "당신이 받게 될 시호는?",
+            "place" : "장소무관",
+            "genre" :  "심리테스트",
+            "image" : "../img/유득공의시도.png"
+        }
+    
+    
+    ]
+}

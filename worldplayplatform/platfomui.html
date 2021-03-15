@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월드플레이 | 인터랙티브 몰입경험콘텐츠 플랫폼</title>
+    <link rel="stylesheet" href="template.css">
+    <script src="src/main.js" defer></script>
+</head>
+<body>
+    <!--header logo-->
+    <header id="logo">
+        <span id="logo">WORLDPLAY</span>
+        <button id="redeemcode">code</button>
+    </header>
+    
+    <!--search-->
+    <section id="search-bar">
+        <input type="text" id="search" placeholder="이름, 지역, 테마 등을 입력하세요">
+        <button class="btn"><img src="" alt="" id="searchBtn">검색</button>
+    </section>
+
+    <hr>
+    <!--event scroller-->
+    <section id="scroller">
+        <img style="width:100%;height:auto;"" src="img/박제가정약용.jpeg" alt="박제가정약용사유피셜">
+    </section>
+    <hr>
+
+    <!--categories filter buttons-->
+    <section class="filterBtn">
+        <a class="btn"><span class="textbtn" data-key="type" data-value="general">제너럴</span></a>
+        <a class="btn"><span class="textbtn" data-key="type" data-value="special">스페셜</span></a>
+        <a class="btn"><span class="textbtn" data-key="type" data-value="mobile">모바일</span></a>
+        <a class="btn"><span class="textbtn" data-key="type" data-value="blend">블렌드</span></a>
+        <a class="btn"><span class="textbtn" data-key="type" data-value="other">기타</span></a>
+        <br>
+        <a class="btn"><span class="textbtn" style="margin-right:12px;" data-key="price-type" data-value="charged">유료</span></a>
+        <a class="btn"><span class="textbtn" style="margin-right:12px;" data-key="price" data-value="무료">무료</span></a>
+        <a class="btn"><span class="textbtn" style="margin-right:12px;" data-key="best" data-value="best">추천</span></a>
+        <a class="btn"><span class="textbtn">커스텀</span></a>
+    </section>
+    <!--items-->
+    <section class="items">
+       <ul class="items"></ul>  
+    </section>
+    <!--catergories filter2 
+    <section class="filterBtn2">
+        <a class="btn"><span class="textbtn" data-key="price-type" data-value="charged">유료</span></a>
+        <a class="btn"><span class="textbtn" data-key="price" data-value="free">무료</span></a>
+        <a class="btn"><span class="textbtn" data-key="type" data-value="best">추천</span></a>
+        <a class="btn"><span class="textbtn">커스텀</span></a>
+    </section>
+    <!-- filter2 items 
+    <section class="items"> 
+        <ul class="items"></ul>
+    </section> --->
+    <!--footer-->
+    <footer id="footerBtn">
+        <a class="btn"><span class="textbtn">홈</span></a>
+        <a class="btn"><span class="textbtn">인벤토리</span></a>
+        <!--<a class="btn"><span class="textbtn">플레이로그</span></a>--->
+        <a class="btn"><span class="textbtn">커뮤니티</span></a>
+        <a class="btn"><span class="textbtn">계정</span></a>
+    </footer>
+</body>
+
+</html>
